@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <!-- //Google Fomts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,800" rel="stylesheet">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <!-- Bootstrap.min.css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Animate css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Travel and Tour</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="65">
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/"><strong>Travel and Tour</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav  text-center ml-auto">
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#search">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#popular">Popular Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- End of Navigation -->
+
+  <!-- Section: Slider -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide" data-ride="carousel">
+      <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100 img-fluid" src="img/resort1.jpg" alt="First slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+          <div class="carousel-caption" id="first-slider">
+            <h2>Take Your Dream Vacation</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Quidem, provident eos dicta unde debitis</h5>
+  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100 img-fluid" src="img/resort2.jpg" alt="Second slide">
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <div class="carousel-caption" id="second-slider">
+            <h2>We Work With All Budgets</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Possimus delectus inventore neque impedit</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100 img-fluid" src="img/resort3.jpg" alt="Third slide">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption" id="third-slider">
+            <h2>Group & Individual Getaways</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Sunt ipsum molestias excepturi doloremque</h5>
+          </div>
+        </div>
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+  <!--End of Section: Slider -->
+
+
+  <!-- Section: Search -->
+  <section id="search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <h3>Search Destinations</h3>
+          </div>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" id="autocomplete" placeholder="Kathmandu, Pokhara, Chitwan, etc...">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of Section: Search -->
+
+  <!-- Section: Icon Boxes -->
+  <section class="icons">
+    <div id="facility">
+      <div class="facility-content-box">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="about-items text-center">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Pick Where</h4>
+
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, quam nemo
+                  aspernatur laudantium accusantium sed incidunt vel consequatur numquam commodi
+                  voluptates architecto est dolores
+                  reprehenderit consectetur natus quia nisi eligendi!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="about-items text-center">
+                <i class="fas fa-store-alt"></i>
+                <h4>Travel Shop</h4>
+
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, quam nemo
+                  aspernatur laudantium accusantium sed incidunt vel consequatur numquam commodi
+                  voluptates architecto est dolores
+                  reprehenderit consectetur natus quia nisi eligendi!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="about-items text-center">
+                <i class="fas fa-plane-departure"></i>
+                <h4>Fly Cheap</h4>
+
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, quam nemo
+                  aspernatur laudantium accusantium sed incidunt vel consequatur numquam commodi
+                  voluptates architecto est dolores
+                  reprehenderit consectetur natus quia nisi eligendi!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Popular Places -->
+  <section id="popular">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-center">Popular Places</h4>
+        </div>
+        <div class="col-md-4">
+          <!-- <div class="about-items text-center"> -->
+          <div class="card text-center m-auto" style="width: 18rem;">
+            <img class="card-img-top" src="img/resort1.jpg" alt="Card image cap">
+            <span class="card-title">Manang, Nepal</span>
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt
+                officia, dicta sint
+                perferendis.</p>
+            </div>
+            <!-- </div> -->
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="card card text-center m-auto" style="width: 18rem;">
+            <img class="card-img-top" src="img/resort2.jpg" alt="Card image cap">
+            <span class="card-title">Everest, Nepal</span>
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt
+                officia, dicta sint
+                perferendis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card text-center m-auto" style="width: 18rem;">
+            <img class="card-img-top" src="img/resort3.jpg" alt="Card image cap">
+            <span class="card-title">Pokhara, Nepal</span>
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt
+                officia, dicta sint
+                perferendis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of Section: Popular Places -->
+
+  <!-- Section: Follow -->
+  <section id="follow">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h4>Follow Us</h4>
+          <p>Follow us on social media for special offers</p>
+          <ul>
+            <li> <a href="#" class="facebook">
+                <i class="fab fa-facebook-square fa-4x"></i>
+              </a></li>
+            <li><a href="#" class="twitter">
+                <i class="fab fa-twitter fa-4x"></i>
+              </a></li>
+            <li><a href="#" class="linkedin">
+                <i class="fab fa-linkedin fa-4x"></i>
+              </a></li>
+            <li><a href="#" class="google">
+                <i class="fab fa-google-plus fa-4x"></i>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of Section: Follow -->
+
+  <!-- Section: Gallery -->
+  <section id="gallery">
+    <div class="container">
+      <h4 class="text-center">
+        <span class="clr">Photo</span> Gallery
+      </h4>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/gallery/image1.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image2.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image3.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image4.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/gallery/image5.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image6.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image7.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image8.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/gallery/image9.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image10.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image11.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+        <div class="col-md-3">
+          <img src="img/gallery/image12.jpg" alt="gallary-image" class="img-fluid forhover">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of Section: Gallery -->
+
+  <!-- Section: Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-details text-center">
+            <i class="fas fa-envelope"></i>
+            <h5>Contact Us For Booking</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium fugit tempore hic enim
+              possimus molestias
+              quisquam impedit corrupti eveniet.</p>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item header">
+              <h3 class="text-center">Location</h3>
+            </li>
+            <li class="list-group-item">Travel and Tour Agency</li>
+            <li class="list-group-item">Kathmandu</li>
+            <li class="list-group-item">Lalitpur</li>
+          </ul>
+        </div>
+        <div class="col-md-6 contact-left">
+          <form>
+            <h4>Please fill out this form</h4>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="phonenum" placeholder="Enter phone No.">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <textarea class="form-control" id="textmessage" rows="3">Enter Message</textarea>
+                </div>
+              </div>
+
+              <div id="submit-btn" class="m-auto">
+                <a href="#" class="btn btn-primary">Submit</a>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="text-center">Travel and Tour &copy; 2018. All Right Reserved. </p>
+  </footer>
+
+
+
+  <!-- Jquery.js -->
+  <script src="js/jquery.js"></script>
+  <!-- Wow jquery plugin for animation -->
+  <script src="js/wow.min.js"></script>
+    <!-- bighover jquery plugin for hover -->
+    <script src="js/jquery.bighover.js"></script>
+  <!-- jQuery for autocomplete search -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- Bootstrap.min.js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Custom Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
